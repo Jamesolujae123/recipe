@@ -1,0 +1,142 @@
+.details {
+background-color: rgba(207, 200, 200, 0.836);
+padding-block: 100px;
+position: relative;
+}
+
+.d-cont {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-left: 80px;
+}
+
+.d-det{
+    background-color: white;
+    box-shadow: 8px 8px gray;
+    padding-left: 30px;
+    padding-block: 30px;
+}
+
+.d-content{
+width: 300px;
+
+}
+
+.d-ingre {
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    color: gray;
+}
+
+.d-content {
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    color: gray;
+}
+
+.d-method {
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    color: gray;
+}
+
+.d-name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px gray;
+    border-bottom-style: solid;
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    color: black;
+
+}
+
+.inin {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fixed {
+    position: absolute;
+    right: 80px;
+    top: 50px;
+}
+
+.top-ting {
+    background-color: red;
+    padding-block: 20px;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.wh {
+    background-color: white;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-block: 5px;
+    width: 200px;
+}
+
+.sr {
+    padding-block: 10px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+}
+
+.wh-s {
+    background-color: white;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-block: 10px;
+    width: 200px;
+    padding-left: 5px;
+}
+
+.wh-s::placeholder {
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    color: gray;
+    padding-left: 40px;
+    color: black;
+}
+
+.d-stars {
+    font-size: 20px;
+    color: rgb(226, 226, 6);
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.meat {
+    transition: 1.7s ease;
+}
+
+.meat:hover {
+    transform: scale(1.4);
+}

@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.836);
+    margin-top: 30px;
+    padding-top: 20px;
+   
+}
+
+.first-f {
+    display: flex;
+    padding-inline: 35px;
+    padding-block: 30px;
+}
+
+.bottom {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 5px;
+    padding-inline: 3px;
+}
+
+.dev {
+    color: gray;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.by  {
+     color: white;
+     font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.copy {
+    color: gray;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Title-w {
+    font-family: "Satisfy", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  color: white;
+}
+
+.left-ting {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.f-ting {
+    width: 300px;
+}
+
+.Read {
+    background-color: green;
+    border: 3px solid rgba(11, 141, 11, 0.76);
+    border-radius: 10px;
+    padding-inline: 10px;
+    padding-block: 5px;
+color: white;
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
